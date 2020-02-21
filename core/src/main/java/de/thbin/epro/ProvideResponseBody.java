@@ -1,3 +1,5 @@
+package de.thbin.epro;
+
 public class ProvideResponseBody {
     String dashboard_url;
     String operation;

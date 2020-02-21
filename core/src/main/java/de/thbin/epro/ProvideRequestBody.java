@@ -1,3 +1,5 @@
+package de.thbin.epro;
+
 public class ProvideRequestBody {
     String service_id;
     String plan_id;
@@ -5,7 +7,7 @@ public class ProvideRequestBody {
     String organization_guid;
     String space_guid;
     Object parameters;
-    //MaintenanceInfo maintenance_info
+    //de.thbin.epro.MaintenanceInfo maintenance_info
     public String getService_id() {
         return service_id;
     }

@@ -1,3 +1,5 @@
+package de.thbin.epro;
+
 public class FetchResponseBody {
     String service_id;
     String plan_id;

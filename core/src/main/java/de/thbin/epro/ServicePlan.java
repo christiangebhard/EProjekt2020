@@ -1,3 +1,5 @@
+package de.thbin.epro;
+
 public class ServicePlan {
 
     // must have
@@ -12,7 +14,7 @@ public class ServicePlan {
     private boolean plan_updateable;
     private Schemas schemas;
     private int maximum_polling_duration;
-    //private MaintenanceInfo maintenance_info;
+    //private de.thbin.epro.MaintenanceInfo maintenance_info;
 
     // CONSTRUCTOR
 

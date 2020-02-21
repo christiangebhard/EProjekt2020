@@ -1,10 +1,12 @@
+package de.thbin.epro;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-public class ServiceBrokerImpl { //implements ServiceBrokerInterface
+public class ServiceBrokerImpl { //implements de.thbin.epro.ServiceBrokerInterface
 
     ServiceOffering[] catalog;
 
@@ -90,8 +92,8 @@ public class ServiceBrokerImpl { //implements ServiceBrokerInterface
             @RequestHeader ("X-Broker-API-Request-Identity") String requestIdentity,
             @PathVariable("instance_id") String instance_id,
             @PathVariable("binding_id") String binding_id,
-            @RequestParam(name = "accepts_incomplete") boolean accepts_incomplete,
-            @RequestBody BindRequestBody body
+            @RequestParam(name = "accepts_incomplete") boolean accepts_incomplete
+            //ToDo: @RequestBody BindRequestBody body
     ) {
         return null;
     }
